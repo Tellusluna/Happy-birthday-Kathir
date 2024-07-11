@@ -1,9 +1,8 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    //background-image: url('..images/41.jpg'); /* Replace with your background image path */
+    background-image: url('path/to/your/background-image.jpg'); /* Replace with your background image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +11,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff; /* White background for the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -49,10 +48,4 @@ h1 {
 
 .refresh-button:hover {
     background-color: #45a049;
-}
-
-.footer {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #666;
 }
