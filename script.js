@@ -45,3 +45,6 @@ function updateMessage() {
 
 // Event listener for page load
 window.addEventListener('load', updateMessage);
+
+// Event listener for button click
+document.getElementById('refreshButton').addEventListener('click', updateMessage);
