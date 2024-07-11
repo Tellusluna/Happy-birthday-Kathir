@@ -36,13 +36,9 @@ const messages = [
     "One more year of becoming a bigger buffalo",
     "Earn millions soon and take me on a trip"
 ];
-
-
 function updateMessage() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     document.getElementById('message').textContent = messages[randomIndex];
-    
-
 }
 
 document.addEventListener('DOMContentLoaded', updateMessage);
