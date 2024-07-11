@@ -85,11 +85,11 @@ const images = [
 function updateContent() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     document.getElementById('message').textContent = messages[randomIndex];
-    //document.body.style.backgroundImage = `url(${images[randomIndex]})`;
+    document.body.style.backgroundImage = `url(${images[randomIndex]})`;
 }
 
 // Event listener for page load
 window.addEventListener('load', updateContent);
 
 // Event listener for button click
-//document.getElementById('refreshButton').addEventListener('click', updateContent);
+document.getElementById('refreshButton').addEventListener('click', updateContent);
