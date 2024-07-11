@@ -42,13 +42,8 @@ function updateMessage() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     document.getElementById('message').textContent = messages[randomIndex];
     
-function setRandomBackground() {
-    const randomIndex = Math.floor(Math.random() * 5) + 1; // Adjust number based on your image count
-    document.body.style.backgroundImage = `url('..images/41.jpg')`;
+
 }
 
 document.addEventListener('DOMContentLoaded', updateMessage);
 document.getElementById('refreshButton').addEventListener('click', updateMessage);
-window.onload = function() {
-    setRandomBackground();
-}
