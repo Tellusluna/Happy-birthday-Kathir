@@ -78,20 +78,18 @@ const images = [
     "images/38.jpg"
     "images/39.jpg"
     "images/40.jpg"
-    "images/41.jpg"
-
-    
+    "images/41.jpg"   
 ];
 
 // Function to update message and background image
 function updateContent() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     document.getElementById('message').textContent = messages[randomIndex];
-    document.body.style.backgroundImage = `url(${images[randomIndex]})`;
+    //document.body.style.backgroundImage = `url(${images[randomIndex]})`;
 }
 
 // Event listener for page load
 window.addEventListener('load', updateContent);
 
 // Event listener for button click
-document.getElementById('refreshButton').addEventListener('click', updateContent);
+//document.getElementById('refreshButton').addEventListener('click', updateContent);
