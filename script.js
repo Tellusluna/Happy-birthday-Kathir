@@ -38,14 +38,10 @@ const messages = [
 ];
 
 
-// Function to update message and background image
-function updateContent() {
+function updateMessage() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     document.getElementById('message').textContent = messages[randomIndex];
 }
 
-// Event listener for page load
-window.addEventListener('load', updateContent);
-
-// Event listener for button click
-document.getElementById('refreshButton').addEventListener('click', updateContent);
+document.addEventListener('DOMContentLoaded', updateMessage);
+document.getElementById('refreshButton').addEventListener('click', updateMessage);
