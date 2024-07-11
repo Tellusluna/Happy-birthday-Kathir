@@ -37,7 +37,7 @@ const messages = [
     "Cheers to being best friends forever!"
 ];
 
-const images = [
+//const images = [
     "..images/1.jpg",
     "..images/2.jpg",
     "..images/3.jpg",
@@ -79,13 +79,13 @@ const images = [
     "..images/39.jpg"
     "..images/40.jpg"
     "..images/41.jpg"   
-];
+];//
 
 // Function to update message and background image
 function updateContent() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     document.getElementById('message').textContent = messages[randomIndex];
-    document.body.style.backgroundImage = `url(${images[randomIndex]})`;
+    //document.body.style.backgroundImage = `url(${images[randomIndex]})`;
 }
 
 // Event listener for page load
