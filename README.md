@@ -1,1 +1,1 @@
-This is a Random Message Generator # Happy-brithday-Kathir
+This is a Birthday wish for # Happy-birthday-Kathir
